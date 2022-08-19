@@ -1,13 +1,30 @@
 {
   "files": {
-    "main.css": "/MemoryCard/static/css/main.073c9b0a.css",
-    "main.js": "/MemoryCard/static/js/main.579a7a5a.js",
+    "main.css": "/MemoryCard/static/css/main.ae8bd30c.css",
+    "main.js": "/MemoryCard/static/js/main.dd53295f.js",
+    "static/media/forza-horizon-5.jpg": "/MemoryCard/static/media/forza-horizon-5.e75ccc4126972ae25bba.jpg",
+    "static/media/Hennessey_Venom.png": "/MemoryCard/static/media/Hennessey_Venom.fdeb23505bfc1487fec3.png",
+    "static/media/Ferrari_Enzo.png": "/MemoryCard/static/media/Ferrari_Enzo.a25f7d487c4c2558e33d.png",
+    "static/media/Ultima_GTR.png": "/MemoryCard/static/media/Ultima_GTR.5d64033fef7ce095f3c7.png",
+    "static/media/McLaren_P1.png": "/MemoryCard/static/media/McLaren_P1.9acfa188302b757f8f2c.png",
+    "static/media/Maserati_MC12.png": "/MemoryCard/static/media/Maserati_MC12.2525cc58c64600503563.png",
+    "static/media/Motors_Lykan.png": "/MemoryCard/static/media/Motors_Lykan.cf439a40fccdfdbc89de.png",
+    "static/media/AMG_GTR.png": "/MemoryCard/static/media/AMG_GTR.2a7886a4b71799f07fc7.png",
+    "static/media/BMW_i8.png": "/MemoryCard/static/media/BMW_i8.1cae0ba3a61bdd9ac05b.png",
+    "static/media/Pagani_Huayra.png": "/MemoryCard/static/media/Pagani_Huayra.c97c6b2301f6a40d839c.png",
+    "static/media/Porsche_918.png": "/MemoryCard/static/media/Porsche_918.b96081c4234d3ffc20e1.png",
+    "static/media/Audi_R8.png": "/MemoryCard/static/media/Audi_R8.b8fef029b2b7bb7e4beb.png",
+    "static/media/TVR_Sagaris.png": "/MemoryCard/static/media/TVR_Sagaris.7f5ff6ed7b36a319ff11.png",
+    "static/media/Zenvo_ST1.png": "/MemoryCard/static/media/Zenvo_ST1.e983b1b0a1cef3e5bbd1.png",
+    "static/media/Bugatti_Veyron.png": "/MemoryCard/static/media/Bugatti_Veyron.b3660645d05d05c1f06f.png",
+    "static/media/Saleen_S7.png": "/MemoryCard/static/media/Saleen_S7.bfd437c8d30f1b5aa430.png",
+    "static/media/Lamborghini_Veneno.png": "/MemoryCard/static/media/Lamborghini_Veneno.5e05d856e5a343413fb0.png",
     "index.html": "/MemoryCard/index.html",
-    "main.073c9b0a.css.map": "/MemoryCard/static/css/main.073c9b0a.css.map",
-    "main.579a7a5a.js.map": "/MemoryCard/static/js/main.579a7a5a.js.map"
+    "main.ae8bd30c.css.map": "/MemoryCard/static/css/main.ae8bd30c.css.map",
+    "main.dd53295f.js.map": "/MemoryCard/static/js/main.dd53295f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.579a7a5a.js"
+    "static/css/main.ae8bd30c.css",
+    "static/js/main.dd53295f.js"
   ]
 }
