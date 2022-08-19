@@ -1,0 +1,27 @@
+.container .header h1 {
+  text-align: center;
+  margin: 0;
+}
+.container .header .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container .header .heading h2 {
+  padding: 10px;
+  margin: 0 40px;
+}
+.container .cardList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 2fr);
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.container .cardList .car {
+  cursor: pointer;
+  width: 250px;
+}
+
+/*# sourceMappingURL=Style.css.map */

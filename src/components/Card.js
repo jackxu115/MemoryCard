@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 
 
-export const Card = ({imageURL, id, updateScore}) => {
+export const Card = ({imageURL, id, updateScore, displayRandom, reset, hasReset}) => {
     const idNumber = `card${id}`
     const [selection, setSelection] = useState(false)
 
@@ -9,15 +9,24 @@ export const Card = ({imageURL, id, updateScore}) => {
         setSelection(a => !a)
     }
 
+    const resetState = () => {
+        if (reset === true) {
+            setSelection(false)
+            hasReset()
+        }
+    }
+
     useEffect(()=> {
         updateScore(selection)
-    }, [selection])
+        displayRandom()
+        resetState()
+    }, [selection, reset])
 
+    console.log('card')
     return (
-        <div>
+        <div className="carItem" id={idNumber}>
             <img
                 src={imageURL}
-                id={idNumber}
                 className="car"
                 onClick={updateSelection}
             />
