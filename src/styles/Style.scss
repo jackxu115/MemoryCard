@@ -1,20 +1,80 @@
+body {
+  color: #eeeeee;
+  background: url("../images/forza-horizon-5.jpg") center center/cover fixed no-repeat;
+}
+
 .container {
   .header {
     h1 {
       text-align: center;
       margin: 0;
     }
+
     .heading {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0;
+
+      .gameHeading {
+        margin: 0 20px;
+        h2 {
+          text-transform: uppercase;
+        }
+
+        .heading1 {
+          color: #1e2022;
+          font-family: "Lucida Console";
+          letter-spacing: 5px;
+          font-size: 50px;
+          font-weight: 600;
+          margin: 10px 0 0;
+          padding: 0;
+        }
+
+        .heading2 {
+          font-weight: 600;
+          font-size: 25px;
+          color: #f7f7f7;
+          background-color: #e60012;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transform: skewX(-10deg);
+          margin: 0;
+          padding: 0;
+
+          h2 {
+            padding: 0;
+            margin: -10px 0 -5px;
+          }
+        }
+
+      }
+
+      .headingGame {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fec72e;
+        font-size: 70px;
+        -webkit-text-stroke: 3px #000000;
+        font-weight: 800;
+      }
+
+    }
+
+    .score {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
 
-      h2 {
+      h4 {
         padding: 10px;
         margin: 0 40px;
       }
     }
   }
+
   .cardList {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -23,9 +83,40 @@
     align-items: center;
     margin: 10px;
 
-    .car {
+    .carItem {
+      background-color: #f7f7f7;
+      margin: 5px;
+      border-radius: 5px;
       cursor: pointer;
-      width: 250px;
+      opacity: 0.95;
+
+      .carInfo {
+        color: #1e2022;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ccf2f4;
+        border-radius: 5px;
+
+
+        .model {
+          font-size: 20px;
+          margin: 5px 0 0;
+          padding: 0;
+          font-weight: 600;
+        }
+
+        .company {
+          margin: 0 0 5px;
+          padding: 0;
+        }
+      }
+
+      .car {
+        width: 250px;
+      }
     }
   }
 }
